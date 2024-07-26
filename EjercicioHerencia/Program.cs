@@ -9,5 +9,16 @@ using System.Dynamic;
 
 
 //instancia operacion area
-Operaciones operacion = new Operaciones();
-operacion.Area();
+//Operaciones operacion = new Operaciones();
+//operacion.proceso();
+
+
+
+
+
+
+Aplicacion aplicacion = new Aplicacion();
+aplicacion.Area();
+
+Aplicacion resta = new Aplicacion();
+aplicacion.Resta();

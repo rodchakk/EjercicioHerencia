@@ -2,15 +2,15 @@
 
 namespace EjercicioHerencia
 {
-    internal class Operaciones
+    public class Operaciones
     {
-        //Area
+        //operaciones
         public int a { get; set; }
         public int b { get; set; } 
         public int resultado { get; set; }
 
 
-        public void Area()
+        public void proceso()
         {
             Console.WriteLine("Ingrese primer numero: ");
             a = int.Parse(Console.ReadLine());
@@ -22,7 +22,7 @@ namespace EjercicioHerencia
             int ResultadoSuma = a + b;
             int ResultadoResta = a - b;
 
-            Console.WriteLine($"= {ResultadoArea}");
+            
             Console.WriteLine($"= {ResultadoSuma}");
             Console.WriteLine($"= {ResultadoResta}");
 
