@@ -18,7 +18,10 @@ using System.Dynamic;
 
 
 Aplicacion aplicacion = new Aplicacion();
-aplicacion.Area();
+aplicacion.CalculoArea();
 
-//Aplicacion resta = new Aplicacion();
-//aplicacion.Resta();
+Aplicacion suma = new Aplicacion();
+aplicacion.CalculoSuma();
+
+Aplicacion resta = new Aplicacion();
+resta.CalculoResta();

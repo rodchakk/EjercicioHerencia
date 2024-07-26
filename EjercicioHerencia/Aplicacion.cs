@@ -10,37 +10,44 @@ namespace EjercicioHerencia
     public class Aplicacion:Operaciones
     {
 
-        public void Area()
+        public void CalculoArea()
         {
 
-            Console.WriteLine("Ingrese Primer numero: ");
-            a=int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Ingrese Segundo numero: ");
-            b = int.Parse(Console.ReadLine());
+            PedirDatos();
 
-            int ResultadoArea = a * b;
 
-            Console.WriteLine($"= {ResultadoArea}");
+            Area();
+
+
+
+           
+        }
+
+
+
+        public void CalculoSuma()
+        {
+
+            PedirDatos();
+            Suma();
+
+
+        }
+
+
+        public void CalculoResta()
+        {
+
+            PedirDatos();
+            Resta();
+
 
         }
 
 
 
-        public void Resta()
-        {
 
-            Console.WriteLine("Ingrese Primer numero: ");
-            a = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Ingrese Segundo numero: ");
-            b = int.Parse(Console.ReadLine());
-
-            int ResultadoResta = a - b;
-
-            Console.WriteLine($"= {ResultadoResta}");
-
-        }
 
 
 
