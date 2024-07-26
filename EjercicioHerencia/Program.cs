@@ -31,6 +31,7 @@ switch (opc) {
 
     case 1:
 
+        Console.WriteLine("calculo de Area: Ingrese Ancho y Largo");
         aplicacion.CalculoArea();
 
 
@@ -38,17 +39,23 @@ switch (opc) {
 
     case 2:
 
-
+        Console.WriteLine("calculo de Suma:");
         aplicacion.CalculoSuma();
 
         break;
 
         case 3:
 
+        Console.WriteLine("calculo de resta");
         aplicacion.CalculoResta();
 
 
         break;
+
+    default:
+        Console.WriteLine("Opcion no valida");
+        Console.WriteLine("Sistema Finalizado");
+        break; 
 
 
 }
