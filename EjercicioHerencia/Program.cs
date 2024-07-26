@@ -20,5 +20,5 @@ using System.Dynamic;
 Aplicacion aplicacion = new Aplicacion();
 aplicacion.Area();
 
-Aplicacion resta = new Aplicacion();
-aplicacion.Resta();
+//Aplicacion resta = new Aplicacion();
+//aplicacion.Resta();

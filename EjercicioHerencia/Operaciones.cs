@@ -10,21 +10,18 @@ namespace EjercicioHerencia
         public int resultado { get; set; }
 
 
-        public void proceso()
+        public void Area()
         {
-            Console.WriteLine("Ingrese primer numero: ");
-            a = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Ingrese segundo numero");
-            b = int.Parse(Console.ReadLine());
 
-            int ResultadoArea = a * b;
-            int ResultadoSuma = a + b;
-            int ResultadoResta = a - b;
+             resultado = a * b;
+           
+           // int ResultadoResta = a - b;
 
             
-            Console.WriteLine($"= {ResultadoSuma}");
-            Console.WriteLine($"= {ResultadoResta}");
+            Console.WriteLine($"= {resultado}");
+            
+            //Console.WriteLine($"= {ResultadoResta}");
 
 
 
@@ -36,12 +33,14 @@ namespace EjercicioHerencia
         public void suma()
         {
 
-
-
+            // int ResultadoSuma = a + b;
+            //Console.WriteLine($"= {ResultadoSuma}");
 
 
 
         }
+
+
 
     }
 }
